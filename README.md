@@ -108,5 +108,5 @@ This project is implemented under **Hands-On OS & Linux Programming** for unders
 
 ## 👨‍💻 Author
 
-**Shailesh Kumar Zanjare**  
-PG-DESD | CDAC  
+**ShaileshKumar Zanjare**  
+PG-DESD | (sunbeeam infotech)CDAC  

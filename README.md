@@ -2,11 +2,13 @@
 # Console-Based C Programming IDE
 [![Platform](https://img.shields.io/badge/Platform-Linux%20(Ubuntu)-blue)](#)
 [![Language](https://img.shields.io/badge/Language-C%20Programming-green)](#)
-[![Concepts](https://img.shields.io/badge/Concepts-Process%20%26%20File%20System%20Calls-orange)](#)
+[![Concepts](https://img.shields.io/badge/Concepts-Process%20%26%20File%20System%20Calls-orange)](#) 
+
 
 This project is a **console-based C programming IDE** designed for Linux environments. It allows users to **create, edit, compile, run, debug, and manage multi-file C projects** directly through the terminal—without any external IDE.
 
 The project uses **system calls** from the Linux OS such as `fork()`, `exec()`, `open()`, `read()`, `write()`, and `unlink()` to implement all features manually.
+
 
 ---
 
@@ -25,6 +27,7 @@ Once launched, it provides a **menu-based interface** for performing operations 
 
 ---
 
+
 ## ✅ Features
 
 | Feature | Description |
@@ -38,6 +41,7 @@ Once launched, it provides a **menu-based interface** for performing operations 
 | Debug Project | Launch executable in **GDB** |
 | Check Memory Leakage | Run executable under **Valgrind** |
 
+
 ---
 
 ## 🛠️ Technologies Used
@@ -49,6 +53,8 @@ Once launched, it provides a **menu-based interface** for performing operations 
 - File handling (`open()`, `read()`, `write()`, `lseek()`, `unlink()`)
 - Directory handling (`stat()`, `mkdir()`, `chdir()`)
 
+
+
 ### **Tools**
 | Tool | Purpose |
 |------|---------|
@@ -56,6 +62,8 @@ Once launched, it provides a **menu-based interface** for performing operations 
 | Vim | Source code editing |
 | GDB | Debugging |
 | Valgrind | Memory leak detection |
+
+
 
 ---
 
@@ -78,6 +86,9 @@ gcc ide.c -o ide
 
 ---
 
+
+
+
 ## 🧭 Menu Example
 ```
 Menu:
@@ -93,6 +104,9 @@ Menu:
 Enter choice:
 ```
 
+
+
+
 ---
 
 ## 🎯 Purpose
@@ -105,6 +119,11 @@ This project is implemented under **Hands-On OS & Linux Programming** for unders
 - Project metadata handling
 
 ---
+
+
+
+
+
 
 ## 👨‍💻 Author
 
